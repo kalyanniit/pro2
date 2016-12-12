@@ -1,0 +1,23 @@
+
+ <div>
+    <form>       
+      <center><h3 style="font-size: 40px">Register Here</h3><br></center>
+  {{message}}
+      <input type="text" class="form-control" name="username" placeholder="username"  autofocus=""  ng-model="username" required/>
+      
+      <br>
+      <input type="password" class="form-control" name="password" placeholder="Password"  ng-model="password" required/>
+     
+      <br> 
+        <input type="emailid" class="form-control" name="emailid" placeholder="emailid"   ng-model="emailid" required/>
+        
+        <br> 
+          <input type="contact" class="form-control" name="contact" placeholder="contact"  ng-model="contact" required/>
+          
+          <br>
+         
+      <button class="btn-primary btn-block" ng-click="reg()">Register</button>   
+    </form>
+  </div>
+
+
